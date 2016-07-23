@@ -1,0 +1,245 @@
+
+/*------------------------------------ Index.html -------------------------------------------------------*/
+.navbar-form #searchInput{
+  width: 150px;
+  /*margin-left: 50px;*/
+}
+.siteLogo{
+  font-family: OpenSans;
+  font-size: 45px;
+}
+.jumbotron{
+  margin-top: 60px;
+}
+.well{
+  margin-top: 40px;
+  }
+.page-header h1{
+  font-size:40px;
+  text-align: center;
+color: blue;
+}
+.page-header small{
+  font-size: 20px;
+}
+/*----------------- Info ---------------------*/
+
+#info p{
+  text-align: justify;
+}
+
+/*------------------- Web Insight ---------------------*/
+#web_insight{
+  margin-top: 20px;
+}
+#web_insight h2{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+/*#web_insight #web_insight_content{
+}*/
+#web_insight #web_insight_image{
+  margin-top: 20px;
+}
+/*------------------ content ------------------*/
+
+#content{
+  margin-top: 20px;
+}
+#content h2{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}#content #content_image{
+  margin-top: 20px;
+}
+/*----------------- Footer -----------------*/
+footer ul{
+  list-style-type: none;}
+  footer{
+  margin-top: 20px;
+  background-color: #9999ff;
+  border-top: 1px solid #4dffa6;
+  text-align: center;
+}
+#footer p{
+  text-align: center;
+}
+footer h4{
+  font-weight: bold;
+  margin-bottom:15px;
+  padding-left: 5px;
+}
+ul.unstyled{
+  padding-left: 10px;;
+}
+}
+--------------- General ------------------*/
+.glyphicon{
+  margin-right: 5px;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+
+/*------------------------------------ PortFolio.html ---------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+#port{
+  margin: 60px 0 0 0;
+  background-color: #F5F5F5;
+  padding: 50px 0;
+  font-family: sans-serif;
+}
+#port h1{
+  margin-top: 0;
+}
+#port p{
+  font-size: 16px;
+}
+#port ul{
+  margin-top: 25px;
+}
+#port ul.unstyled li{
+  margin-bottom: 0px;
+  display: inline;
+}
+#port ul.unstyled li a{
+  font-size: 15px;
+}
+#port ul.unstyled li a.active{
+  color: #fff;
+}
+#showcase{
+  margin: 10px 0 0 0;
+}
+#showcase .row{
+  margin-bottom: 25px;
+}
+#showcase #showcase-3{
+  margin-bottom: 15px;
+}
+.showcase_unit .name{
+  font-size: 20px;
+}
+.showcase_unit .description{
+  font-size: 13px;
+}
+/*------------------- Media Queries -------------------*/
+
+@media (max-width: 992px){
+  .siteLogo{
+    font-size: 30px;
+  }
+
+  .showcase_unit .name{
+    font-size: 26px;
+  }
+  .showcase_unit .description{
+    font-size: 14px;
+  }
+}
+@media(max-width: 768px) {
+ #content #content_image img{
+   float: none !important;
+ }
+ #web_insight #web_insight_image img{
+   float: none !important;
+ }
+}
+@media(max-width: 767px){
+footer #web_maintenance{
+  clear: both;
+}
+.navbar-form #searchInput{
+   display: inline;
+}
+.img-responsive{
+  width: 550pxs;
+  height: 150px;
+}
+}
+@media(max-width: 610px){
+  #port p{
+    font-size: 14px;
+  }
+  #port h1{
+    font-size: 28px;
+  }
+  #port ul.unstyled li a{
+    font-size: 13px;
+  }
+  #showcase .col-xs-4{
+    width: 100%;
+  }
+  #hidden_small{
+    display: none;
+  }
+  .showcase_unit .img-responsive{
+    width: 400px;
+    height: 250px;
+  }
+  .showcase_unit .name, .showcase_unit .description{
+    text-align: center;
+  }
+  #showcase .row{
+    margin-bottom: 0px;
+  }
+  #showcase #showcase-3{
+    margin-bottom: 0px;
+  }
+  #showcase .showcase_unit{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 354px){
+  #port ul{
+    margin-top: 32px;
+  }
+  .showcase_unit .img-responsive{
+    width: 100%;
+    height: 180px;
+  }
+  .showcase_unit .name{
+    font-size: 24px;
+  }
+  .showcase_unit .description{
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 320px){
+   #content #content_image img, #web_insight #web_insight_image img{
+     width: 100%;
+   }
+   .siteLogo{
+     font-size: 20px;
+   }
+   #port p{
+     font-size: 12px;
+   }
+   #port h1{
+     font-size: 20px;
+   }
+   #port ul.unstyled li a{
+     font-size: 11px;
+   }
+   #port ul{
+     margin-top: 15px;
+   }
+}
+@media(max-width: 235px){
+   #content #content_image img, #web_insight #web_insight_image img{
+     width: 150px;
+   }
+   footer .col-xs-6{
+     width: 100%;
+   }
+   .showcase_unit .img-responsive{
+     width: 200px;
+     height: 140px;
+   }
+}
+body{
+  overflow-x:hidden;
+}
